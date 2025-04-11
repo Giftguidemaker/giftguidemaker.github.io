@@ -1,0 +1,47 @@
+
+
+.flex-container {
+
+display: flex;
+
+
+}
+
+
+
+
+.NintendoBox {
+text-align: center;
+width: 200px;
+height: 100px;
+border: 1px solid rgb(143, 7, 7);
+padding: 10px;
+margin: auto;
+background-color:  rgb(143, 7, 7);
+line-height: 6;
+float: left;
+flex-wrap: nowrap;
+}
+.XBox {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(2, 68, 13);
+    padding: 10px;
+    margin: auto;
+    background-color:  rgb(2, 68, 13);
+    line-height: 4;
+    flex-wrap: nowrap;
+    
+    }
+    .PlaystationBox {
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        border: 1px solid rgb(2, 12, 68);
+        padding: 10px;
+        margin: auto;
+        background-color:  rgb(2, 12, 68);
+        line-height: 4;
+        float: right;
+        }
